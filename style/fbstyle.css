@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #4c66a4;
+    font-family: 'Francois One', sans-serif;}
+
+body {
+    padding-bottom: 4%;
+}
+
+#container {
+    width: 90%;
+    overflow: hidden;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+#title {
+    padding: 1%;
+}
+
+#content {
+    min-height: 240px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #F7F7F7;
+    padding: 8% 8% 8% 8%;
+}
+
+
+#status {
+    word-wrap:break-word;
+    font-size: 1.2em;
+    /*min-height: 2.5em;*/
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+#share {
+    margin-top: 1em;
+}
+
+#names {
+    display: table;
+    margin: 0 auto;
+    font-size: 1.2em;
+    width: 90%;
+    height: 12em;
+}
+
+
+.button {
+    border: none;
+    font-size: 1.3em;
+    background-color: #4c66a4;
+    padding: 0.2em 0.4em;
+    color: white;
+    border-radius: 5%;
+    -webkit-appearance: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2E51A3;
+}
+
+#loginButton {
+    width: 120px;
+    height: 31px;
+    background-image: url('../img/active_404.png');
+    background-size: contain;
+
+}
+#loginButton:hover {
+    background-image: url('../img/pressed_404.png');
+    cursor: pointer;
+
+}
+
+#logout_button {
+    text-decoration: underline;
+}
+#logout_button:hover {
+    cursor: pointer;
+}
+
+td {
+    padding: 0.5em;
+    border: solid black;
+}
+
+tr:hover {
+    background-color: #4c66a4;
+    cursor: pointer;
+}
+
+tr:hover td {
+    color: white !IMPORTANT;
+}
+
+h1 {
+    font-size: 1.6em;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+a {
+    color: #4c66a4;
+}
+
+a:hover {
+    color: #243253;
+}
+.logout {
+    color: white;
+    display: inline;
+}
+
+#links {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#links a {
+    color: white;
+}
+
+#links a:hover {
+    color: #E0E0E0;
+}
+
+#fb-like {
+    margin: 0 auto;
+}
+
+.addthis_toolbox {
+    display: none;
+    width: 224px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.twitter-share-button {
+    width: 81px !important;
+}
+
+.fb-like {
+    margin-top: 3px;
+}
+
+#percent {
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 300px) {
+
+    #loginButton {
+        width: 202px;
+        height: 46px;
+        background-size: auto;
+    }
+    h1 {
+        font-size: 2.4em;
+    }
+
+
+}
+@media screen and (min-width: 601px) {
+    #content {
+        padding-bottom: 2%;
+    }
+    .addthis_toolbox {
+        display: block;
+    }
+    h1{
+        font-size: 3.5em;
+    }
+    #container {
+        width: 60%;
+    }
+    #names {
+        width: 60%;
+    }
+    #status {
+        font-size: 1.5em;
+    }
+}
+
